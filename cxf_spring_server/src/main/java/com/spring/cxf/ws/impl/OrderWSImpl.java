@@ -10,7 +10,7 @@ public class OrderWSImpl implements OrderWS{
 
 	public Order getOrderById(int id) {
 		System.out.println("Server getOrderById(): "+id);
-		return new Order(id, "·É»ú", 999999999);
+		return new Order(id, "é£žæœº", 999999999);
 	}
 
 }
